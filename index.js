@@ -23,3 +23,7 @@ const fareDoubler = function(fare) {
 const fareTripler = function(fare) {
   return fare * 3;
 };
+
+const fetchSpecifiedDrivers = function(drivers, selection) {
+  return selection(drivers);
+};
